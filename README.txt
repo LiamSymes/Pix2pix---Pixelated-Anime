@@ -1,7 +1,7 @@
 Pix2Pix model and Pixelation code in Google Colabs.
 
 Instructions for pixelating images:
-1: Load Google Colab file (Pix2Pix_Pixelate.ipynb)
+1: Load Google Colab file (Pix2Pix_Pixelate.ipynb).
 2: Edit filepaths in the existing code to match your system/directory. 
 3: Edit the image resize values to your preferred image size.
 4: Edit the pixelation value to modify how pixelated the images will become.
@@ -9,12 +9,13 @@ Instructions for pixelating images:
 
 
 Using the AnimePix2pix python code via Google Colabs: 
-1: Change directories where needed so the code can access the required folders. 
-2: Change the n_epoch and n_epoch_decay to a lower amount to begin with (e.g. 10, 10) to ensure everything is working correctly.
-3: After this, the default or recommended values are 100, 100. 
-4. After the model is finished training, you can save the 'latest_net_G.pth' and 'latest_net_D.pth' files if you wish to save the latest trained version. 
-5: To continue training, simply uncomment '--continue_train' and '--epoch_count' and then change the epoch_count to the epoch you wish to start from to continue training. Then up the amount of n_epochs and n_epochs_decay.
-6: If you wish to save the entirety of results, use the last code block but ensure you update the destination_dir.
+1: Load Google Colab file (AnimePix2Pix.ipynb).
+2: Change directories where needed so the code can access the required folders. 
+3: Change the n_epoch and n_epoch_decay to a lower amount to begin with (e.g. 10, 10) to ensure everything is working correctly.
+4: After this, the default or recommended values are 100, 100. 
+5. After the model is finished training, you can save the 'latest_net_G.pth' and 'latest_net_D.pth' files if you wish to save the latest trained version. 
+6: To continue training, simply uncomment '--continue_train' and '--epoch_count' and then change the epoch_count to the epoch you wish to start from to continue training. Then up the amount of n_epochs and n_epochs_decay.
+7: If you wish to save the entirety of results, use the last code block but ensure you update the destination_dir.
 
 
 
